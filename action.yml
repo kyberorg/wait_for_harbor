@@ -34,11 +34,11 @@ inputs:
   timeout:
     description: 'Timeout in seconds'
     required: false
-    default: '60'
+    default: '1m'
   interval:
     description: 'Interval between polling in seconds'
     required: false
-    default: '2'
+    default: '2s'
 
 runs:
   using: 'composite'
